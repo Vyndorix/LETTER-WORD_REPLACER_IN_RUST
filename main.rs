@@ -6,6 +6,7 @@ fn main() -> std::io::Result<()> {
 
     let modified_contents = contents
         .replace("e", "penis");
+        //        ^ replaces every e with penis
 
     fs::write(filename, modified_contents)?;
 
